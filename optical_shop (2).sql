@@ -221,7 +221,7 @@ CREATE TABLE `stock` (
   `power_category` varchar(255) NOT NULL,
   `usuage_type` varchar(255) NOT NULL,
   `stock_count` int NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `stock`
